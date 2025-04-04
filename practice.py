@@ -92,4 +92,4 @@ def get_month_name(month_name):
   else:
     print('Wrong month name')
 
-get_month_name('Septembe')
+get_month_name('September')
