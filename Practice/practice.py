@@ -64,36 +64,58 @@
 # set_b = {1,2,8}
 # print(set_a - set_b)
 
-def get_month_name(month_name):
-  if month_name == 'January':
-    print("31 days")
-  elif month_name == 'February':
-    print('28/29 days')
-  elif month_name == 'March':
-    print('31 days')
-  elif month_name == 'April':
-    print('30 days')
-  elif month_name == "May":
-    print('31 days')
-  elif month_name == 'June':
-    print ('30 days')
-  elif month_name == 'July':
-    print('31 days')
-  elif month_name == 'August':
-    print('31 days')
-  elif month_name == 'September':
-    print('30 days')
-  elif month_name == 'October':
-    print('31 days')
-  elif month_name == 'November':
-    print('30 days')
-  elif month_name == 'December':
-    print('31 days')
-  else:
-    print('Wrong month name')
+# def get_month_name(month_name):
+#   if month_name == 'January':
+#     print("31 days")
+#   elif month_name == 'February':
+#     print('28/29 days')
+#   elif month_name == 'March':
+#     print('31 days')
+#   elif month_name == 'April':
+#     print('30 days')
+#   elif month_name == "May":
+#     print('31 days')
+#   elif month_name == 'June':
+#     print ('30 days')
+#   elif month_name == 'July':
+#     print('31 days')
+#   elif month_name == 'August':
+#     print('31 days')
+#   elif month_name == 'September':
+#     print('30 days')
+#   elif month_name == 'October':
+#     print('31 days')
+#   elif month_name == 'November':
+#     print('30 days')
+#   elif month_name == 'December':
+#     print('31 days')
+#   else:
+#     print('Wrong month name')
 
-get_month_name('September')
+# get_month_name('September')
 
-numbers = [1, 2, 3, 4, 5]
-for i in range(6):
-    print(numbers[i])
+# numbers = [1, 2, 3, 4, 5]
+# for i in range(6):
+#     print(numbers[i])
+
+
+# word = 'Superman'
+
+# for i in range(len(word)):
+#     if i % 2 ==0:
+#         print(word[i], end=' ')
+
+
+# Write a function that takes a number and returns a list of all even numbers from 1 to that number.
+
+# Example:
+# get_evens(10) ➝ [2, 4, 6, 8, 10]
+
+# def even(n):
+#     for i in range(1, n+1):
+#         if i % 2 == 0:
+#             print(i)
+
+# even(10)
+
+
